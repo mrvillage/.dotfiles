@@ -1,0 +1,3 @@
+notARepository: 'skip'
+disableStartupPopups: true
+quitOnTopLevelReturn: true

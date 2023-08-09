@@ -1,18 +1,18 @@
 [submodule "p"]
 	path = p
-	url = git@github.com:/mrvillage/.dotfiles-personal
+	url = git@github.com:/mrvillage/.dotfiles-personal.git
 [submodule "pw"]
 	path = pw
-	url = git@github.com:/mrvillage/.dotfiles-pw
+	url = git@github.com:/mrvillage/.dotfiles-pw.git
 [submodule "u"]
 	path = u
-	url = git@github.com:/mrvillage/university
+	url = git@github.com:/mrvillage/university.git
 [submodule "seer"]
 	path = seer
-	url = git@github.com:/mrvillage/.dotfiles-seer
+	url = git@github.com:/mrvillage/.dotfiles-seer.git
 [submodule "w"]
 	path = w
-	url = git@github.com:/mrvillage/.dotfiles-work
+	url = git@github.com:/mrvillage/.dotfiles-work.git
 [submodule "s"]
 	path = s
-	url = git@github.com:/mrvillage/.dotfiles-seer
+	url = git@github.com:/mrvillage/.dotfiles-seer.git

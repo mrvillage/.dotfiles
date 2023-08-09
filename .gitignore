@@ -11,4 +11,5 @@
 .wakatime.bdb
 .wakatime.cfg
 nvim
-
+.node_repl_history
+.config/lazygit/state.yml
