@@ -1,0 +1,18 @@
+[submodule "p"]
+	path = p
+	url = git@github.com:/mrvillage/.dotfiles-personal
+[submodule "pw"]
+	path = pw
+	url = git@github.com:/mrvillage/.dotfiles-pw
+[submodule "u"]
+	path = u
+	url = git@github.com:/mrvillage/university
+[submodule "seer"]
+	path = seer
+	url = git@github.com:/mrvillage/.dotfiles-seer
+[submodule "w"]
+	path = w
+	url = git@github.com:/mrvillage/.dotfiles-work
+[submodule "s"]
+	path = s
+	url = git@github.com:/mrvillage/.dotfiles-seer

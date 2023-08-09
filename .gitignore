@@ -1,0 +1,14 @@
+.aws
+.azure
+.bash_history
+.cache
+.docker
+.local
+.npm
+.ssh
+.volta
+.wakatime
+.wakatime.bdb
+.wakatime.cfg
+nvim
+
