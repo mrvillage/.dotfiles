@@ -1,5 +1,6 @@
 Requires:
-- Neovim (installed from source in the $HOME/nvim directory)
-- Volta (and thus node)
-- clang
-- lazygit
+- Neovim from source in the $HOME/nvim directory
+- Volta from website
+ - Node.js
+- clang from apt
+- lazygit from script on README
