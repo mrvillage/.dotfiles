@@ -16,3 +16,6 @@
 [submodule "s"]
 	path = s
 	url = git@github.com:/mrvillage/.dotfiles-seer.git
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = git@github.com:/mrvillage/init.lua
