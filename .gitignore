@@ -13,3 +13,4 @@
 nvim
 .node_repl_history
 .config/lazygit/state.yml
+.config/gatsby/config.json
