@@ -17,3 +17,5 @@
 /.mrvillage
 /.cargo
 /.rustup
+/.config/composer
+/.config/github-copilot
