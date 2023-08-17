@@ -111,9 +111,18 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# PATH stuff
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 export PATH="$HOME/nvim/bin:$PATH"
-. "$HOME/.cargo/env"
+export PATH="$HOME/.cargo/env:$PATH"
+
+# SSH stuff
 eval $(ssh-agent -s) > /dev/null
 ssh-add > /dev/null
+
+# Editor stuff
+export EDITOR="nvim"
+export VISUAL="nvim"
+. "$HOME/.cargo/env"
