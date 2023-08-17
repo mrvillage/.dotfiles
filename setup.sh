@@ -5,7 +5,7 @@ sudo apt-get upgrade -y
 sudo apt-get install -y wget curl clang git
 
 # Clone dotfiles
-git clone git@github.com:/mrvillage/.dotfiles.git #--recurse-submodules
+git clone git@github.com:/mrvillage/.dotfiles.git --recurse-submodules
 mv .dotfiles/{.,}* ./
 rm -rf .dotfiles
 
