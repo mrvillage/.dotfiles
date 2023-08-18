@@ -33,4 +33,4 @@ source $HOME/.bashrc
 rustup toolchain install nightly
 rustup update
 rustup target add wasm32-unknown-unknown --toolchain nightly
-
+cargo install mrvillage-cli cargo-release
