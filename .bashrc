@@ -123,6 +123,8 @@ eval $(ssh-agent -s) > /dev/null
 ssh-add > /dev/null
 
 # Editor stuff
+alias vim="nvim"
+alias vi="nvim"
 export EDITOR="nvim"
 export VISUAL="nvim"
-. "$HOME/.cargo/env"
+export GPG_TTY=$(tty)

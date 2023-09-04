@@ -19,3 +19,4 @@
 /.rustup
 /.config/composer
 /.config/github-copilot
+/.gnupg
