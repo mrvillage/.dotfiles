@@ -27,6 +27,7 @@ tar xf lazygit.tar.gz lazygit
 sudo install lazygit /usr/local/bin
 rm -rf lazygit.tar.gz lazygit
 
+
 # Install Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s - --no-modify-path -y
 source $HOME/.bashrc
@@ -34,3 +35,6 @@ rustup toolchain install nightly
 rustup update
 rustup target add wasm32-unknown-unknown --toolchain nightly
 cargo install mrvillage-cli cargo-release
+
+# Install Java
+sudo apt-get install -y openjdk-17-jdk
