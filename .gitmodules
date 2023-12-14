@@ -10,10 +10,6 @@
 	path = u
 	url = git@github.com:/mrvillage/university.git
 	branch = master
-[submodule "seer"]
-	path = seer
-	url = git@github.com:/mrvillage/.dotfiles-seer.git
-	branch = master
 [submodule "w"]
 	path = w
 	url = git@github.com:/mrvillage/.dotfiles-work.git
