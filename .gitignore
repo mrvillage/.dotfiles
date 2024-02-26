@@ -21,3 +21,9 @@
 /.config/github-copilot
 /.gnupg
 /.python_history
+/.config/.wrangler
+/.config/JetBrains
+/.config/configstore/update-notifier-@maizzle
+/.config/nextjs-nodejs
+/.java
+/.python_history*

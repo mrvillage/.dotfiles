@@ -117,6 +117,7 @@ export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 export PATH="$HOME/nvim/bin:$PATH"
 export PATH="$HOME/.cargo/env:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # SSH stuff
 eval $(ssh-agent -s) > /dev/null
