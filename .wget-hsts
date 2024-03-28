@@ -2,5 +2,7 @@
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 raw.githubusercontent.com	0	0	1696906123	31536000
+api.mason-registry.dev	0	0	1710536222	63072000
+dev.mysql.com	0	0	1711416622	15768000
 developers.cloudflare.com	0	0	1693194882	15552000
 github.com	0	1	1696373595	31536000
