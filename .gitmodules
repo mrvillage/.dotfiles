@@ -22,3 +22,7 @@
 	path = .config/nvim
 	url = git@github.com:/mrvillage/init.lua
 	branch = master
+[submodule "v"]
+	path = v
+	url = git@github.com:/mrvillage/.dotfiles-v19
+	branch = master
