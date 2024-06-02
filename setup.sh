@@ -15,7 +15,7 @@ tar xzf nvim-linux64.tar.gz
 mv nvim-linux64 nvim
 rm nvim-linux64.tar.gz
 
-# Install Volta nad Node
+# Install Volta and Node
 curl https://get.volta.sh | bash
 source $HOME/.bashrc
 volta install node
@@ -34,7 +34,28 @@ source $HOME/.bashrc
 rustup toolchain install nightly
 rustup update
 rustup target add wasm32-unknown-unknown --toolchain nightly
-cargo install mrvillage-cli cargo-release
+cargo install mrvillage-cli cargo-release tree-sitter-cli
 
 # Install Java
 sudo apt-get install -y openjdk-17-jdk
+
+# Install Go
+wget https://go.dev/dl/go1.22.2.linux-amd64.tar.gz
+rm -rf /usr/local/go && tar -C /usr/local -xzf go1.22.2.linux-amd64.tar.gz
+rm go1.22.2.linux-amd64.tar.gz
+
+# Install R
+sudo apt install --no-install-recommends software-properties-common dirmngr
+gpg --keyserver keyserver.ubuntu.com --recv-key '95C0FAF38DB3CCAD0C080A7BDC78B2DDEABC47B7'
+gpg --armor --export '95C0FAF38DB3CCAD0C080A7BDC78B2DDEABC47B7' | sudo tee /etc/apt/trusted.gpg.d/cran_debian_key.asc
+sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/debian $(lsb_release -cs)-cran40/"
+sudo apt-get install r-base r-base-dev xml2
+
+# Install Julia
+curl -fsSL https://install.julialang.org | sh
+
+# Install Zig
+wget https://ziglang.org/builds/zig-linux-x86_64-0.13.0-dev.73+db890dbae.tar.xz
+tar -xf zig-linux-x86_64-0.13.0-dev.73+db890dbae.tar.xz
+mv zig-linux-x86_64-0.13.0-dev.73+db890dbae .zig
+rm zig-linux-x86_64-0.13.0-dev.73+db890dbae.tar.xz

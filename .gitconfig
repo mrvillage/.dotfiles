@@ -6,3 +6,5 @@ signingkey = "F077C7C009C41267"
 sslcainfo = "/home/village/cloudflare.pem"
 [commit]
 gpgsign = true
+[credential]
+	helper = cache

@@ -118,6 +118,9 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 export PATH="$HOME/nvim/bin:$PATH"
 export PATH="$HOME/.cargo/env:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="/usr/local/go/bin:$PATH"
+export PATH="$HOME/.zig:$PATH"
+export PATH="/usr/local/cuda-12.4/bin:$PATH"
 
 # SSH stuff
 eval $(ssh-agent -s) > /dev/null
@@ -129,3 +132,29 @@ alias vi="nvim"
 export EDITOR="nvim"
 export VISUAL="nvim"
 export GPG_TTY=$(tty)
+
+
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+case ":$PATH:" in
+    *:/home/village/.juliaup/bin:*)
+        ;;
+
+    *)
+        export PATH=/home/village/.juliaup/bin${PATH:+:${PATH}}
+        ;;
+esac
+
+# <<< juliaup initialize <<<
+
+export LIBTORCH="/home/village/libtorch"
+export LD_LIBRARY_PATH="$LIBTORCH/lib:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH="/usr/local/cuda-12.4/lib64:$LD_LIBRARY_PATH"
+
+export PATH="$HOME/gsl/bin:$PATH"
+export LD_LIBRARY_PATH="$HOME/gsl/lib:$LD_LIBRARY_PATH"
+
+export NOT_CRAN="true"

@@ -27,3 +27,14 @@
 /.config/nextjs-nodejs
 /.java
 /.python_history*
+/go
+/gsl
+/libtorch
+/.dotnet
+/.julia
+/.juliaup
+/.vscode-server
+/.zig
+/R
+/WSL2-Linux-Kernel
+/.config/go
