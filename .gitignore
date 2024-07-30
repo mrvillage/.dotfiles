@@ -28,8 +28,8 @@
 /.java
 /.python_history*
 /go
-/gsl
-/libtorch
+/.gsl
+/.libtorch
 /.dotnet
 /.julia
 /.juliaup

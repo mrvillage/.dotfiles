@@ -26,3 +26,6 @@
 	path = v
 	url = git@github.com:/mrvillage/.dotfiles-v19
 	branch = master
+[submodule "b"]
+	path = b
+	url = git@github.com:/mrvillage/.dotfiles-baseline

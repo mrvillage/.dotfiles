@@ -150,11 +150,11 @@ esac
 
 # <<< juliaup initialize <<<
 
-export LIBTORCH="/home/village/libtorch"
+export LIBTORCH="/home/village/.libtorch"
 export LD_LIBRARY_PATH="$LIBTORCH/lib:$LD_LIBRARY_PATH"
 export LD_LIBRARY_PATH="/usr/local/cuda-12.4/lib64:$LD_LIBRARY_PATH"
 
-export PATH="$HOME/gsl/bin:$PATH"
-export LD_LIBRARY_PATH="$HOME/gsl/lib:$LD_LIBRARY_PATH"
+export PATH="$HOME/.gsl/bin:$PATH"
+export LD_LIBRARY_PATH="$HOME/.gsl/lib:$LD_LIBRARY_PATH"
 
 export NOT_CRAN="true"
