@@ -14,10 +14,6 @@
 	path = w
 	url = git@github.com:/mrvillage/.dotfiles-work.git
 	branch = master
-[submodule "s"]
-	path = s
-	url = git@github.com:/mrvillage/.dotfiles-seer.git
-	branch = master
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = git@github.com:/mrvillage/init.lua
@@ -26,6 +22,3 @@
 	path = v
 	url = git@github.com:/mrvillage/.dotfiles-v19
 	branch = master
-[submodule "b"]
-	path = b
-	url = git@github.com:/mrvillage/.dotfiles-baseline
